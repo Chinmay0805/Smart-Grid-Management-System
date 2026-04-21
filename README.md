@@ -147,7 +147,7 @@ This file is the **live demo interface**. Run it after training to watch the age
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 
@@ -185,7 +185,7 @@ Open `http://localhost:6006` to see live training curves (reward, loss, entropy)
 
 ---
 
-## 📊 Understanding the Results
+##  Understanding the Results
 
 After training, a well-trained agent should:
 
@@ -196,7 +196,7 @@ After training, a well-trained agent should:
 
 ---
 
-## 🏗️ Architecture Summary
+##  Architecture Summary
 
 ```
 Observation (4 values)
@@ -228,7 +228,7 @@ Observation (4 values)
 
 ---
 
-## 🔧 Key Design Decisions
+##  Key Design Decisions
 
 | Decision | Reason |
 |---|---|
@@ -242,7 +242,7 @@ Observation (4 values)
 
 ---
 
-## 🔭 Possible Extensions
+##  Possible Extensions
 
 - **Continuous action space** — instead of "charge/hold/discharge", let the agent pick exactly how many kW to charge/discharge (use `Box` action space with SAC or TD3 algorithm)
 - **Real price data** — replace the simulated price curve with actual historical electricity prices (e.g. AEMO data for Australia, ENTSO-E for Europe)
@@ -252,7 +252,7 @@ Observation (4 values)
 
 ---
 
-## 📚 References
+##  References
 
 - [Stable-Baselines3 Documentation](https://stable-baselines3.readthedocs.io/)
 - [Gymnasium Documentation](https://gymnasium.farama.org/)
