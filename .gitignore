@@ -1,0 +1,23 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+
+# Model Checkpoints & Artifacts
+best_model/
+checkpoints/
+*.zip
+
+# Logs and Evaluations
+eval_logs/
+tb_logs/
+*.npz
+
+# Pickled Data (e.g., normalization vectors)
+*.pkl
+
+# IDE / Editor
+.vscode/
