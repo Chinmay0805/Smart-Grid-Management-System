@@ -1,16 +1,3 @@
-"""
-app.py — Streamlit dashboard for SmartGridEnv PPO agent
-
-Fixes vs. original:
-    - Loads VecNormalize stats (vec_normalize.pkl) alongside the PPO model
-      so observations are correctly normalised at inference time
-    - int(action.item()) fixes numpy array comparison in action_to_text()
-    - Added a rule-based baseline agent for comparison
-    - Richer charts: cost-per-hour bar chart + solar/demand/battery area chart
-    - Step-level info table logged per episode
-    - Graceful error handling throughout
-"""
-
 import os
 import time
 import numpy as np
