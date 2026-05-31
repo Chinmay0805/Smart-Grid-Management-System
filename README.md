@@ -1,3 +1,13 @@
+---
+title: Smart Grid Management System
+emoji: ⚡
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 # Smart Grid Energy Management System
 ### Reinforcement Learning (PPO) for Home Battery Optimisation
 
